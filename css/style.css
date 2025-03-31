@@ -554,10 +554,15 @@ main {
     }
 }
 
-/* Estado inicial (oculto) */
 #mis-servicios .texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     opacity: 0;
     transform: translateX(-100%);
+    background-color: #00000037;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 /* Clase para activar la animación */
@@ -576,12 +581,6 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover; /* La imagen se adapta a su contenedor */
-}
-
-#mis-servicios .texto {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
 }
 
 #mis-servicios .texto h2 {
@@ -728,6 +727,9 @@ main {
     justify-content: flex-start;
     opacity: 0;
     transform: translateX(100%);
+    background-color: #00000037;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 /* Clase para activar la animación */
